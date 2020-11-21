@@ -9,16 +9,26 @@
 }
 
 .searchbar {
-    font-family: arial, sans-serif;
-    font-size: 12pt;
     position: relative;
-    margin-left: 48vh;
-    margin-top: 38vh;
+    left: 46vh;
+    top: 37vh;
+    background-image: url("/google-homepage/pictures/magnifying-glass.jpg");
+    background-repeat: no-repeat;
+    background-position: 4px 7px;
+    background-size: 30px;
+    padding-left: 38px;
+    width: 530px;
+    height: 44px;
     z-index: 1;
-    width: 5in;
-    border-radius: 10px;
-    height: 35px
+    margin: auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    -webkit-tap-highlight-color: transparent;
 }
+.search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+  }
 .searchbuttons {
     left: 0;
     line-height: 200px;
@@ -27,6 +37,51 @@
     text-align: center;
     top: 50%;
     width: 100%;
+}
+#search {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+#search:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+#feelinglucky {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+#feelinglucky:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
 }
 a {
     color: black;
